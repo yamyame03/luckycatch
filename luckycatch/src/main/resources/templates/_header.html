@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:fragment="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luckycatch - 랜덤박스 쇼핑몰</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">       
+            <h1 class="header__logo">LUCKYCATCH</h1>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">홈</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">이용방법</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">이벤트</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">고객센터</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
